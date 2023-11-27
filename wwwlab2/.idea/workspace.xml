@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="wwwlab2:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bb12848-7128-40a2-9602-78bce9caa5bf" name="Changes" comment="service and resource">
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/admin/Admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/admin/Admin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/admin/Components/formAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/admin/Components/formAdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/admin/Components/formEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/admin/Components/formEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/home/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/login/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/login/Login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/entities/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/entities/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/repositories/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/resoures/EmployeeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/resoures/EmployeeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/services/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2VqRISLV6oQiNJWqfpavrnDhPga" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/webapplication",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vn.edu.ihu.fit.wwwlab2.config" />
+      <recent name="vn.edu.ihu.fit.wwwlab2.repositories" />
+      <recent name="vn.edu.ihu.fit.wwwlab2.enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.11">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vn.edu.ihu.fit.wwwlab2.test.Test" />
+      <module name="wwwlab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vn.edu.ihu.fit.wwwlab2.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" requestIdentifier="#10" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="#11" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 10.1.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="wwwlab2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9cbbf61f-3a82-47b6-aa3f-2df1144f4e7a" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61741" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="wwwlab2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="HTTP Request.generated-requests | #5" />
+      <item itemvalue="HTTP Request.generated-requests | #9" />
+      <item itemvalue="HTTP Request.generated-requests | #10" />
+      <item itemvalue="HTTP Request.generated-requests | #11" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.11" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="HTTP Request.generated-requests | #11" />
+        <item itemvalue="HTTP Request.generated-requests | #9" />
+        <item itemvalue="HTTP Request.generated-requests | #10" />
+        <item itemvalue="HTTP Request.generated-requests | #5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bb12848-7128-40a2-9602-78bce9caa5bf" name="Changes" comment="" />
+      <created>1695561546677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695561546677</updated>
+      <workItem from="1695561547778" duration="117000" />
+      <workItem from="1695908369986" duration="3000" />
+      <workItem from="1695967535215" duration="2982000" />
+      <workItem from="1695977214853" duration="3362000" />
+      <workItem from="1696086157222" duration="3750000" />
+      <workItem from="1696132606902" duration="452000" />
+      <workItem from="1696228725172" duration="4381000" />
+      <workItem from="1696385735892" duration="1759000" />
+      <workItem from="1696509163576" duration="6527000" />
+      <workItem from="1696567647547" duration="5331000" />
+      <workItem from="1696578549849" duration="149000" />
+      <workItem from="1696578853704" duration="213000" />
+      <workItem from="1696600818173" duration="4362000" />
+      <workItem from="1696692793380" duration="1277000" />
+      <workItem from="1697340503359" duration="60000" />
+      <workItem from="1697340605056" duration="1323000" />
+      <workItem from="1697890689578" duration="283000" />
+      <workItem from="1698225893640" duration="2284000" />
+      <workItem from="1698237109138" duration="698000" />
+      <workItem from="1698305069942" duration="4526000" />
+      <workItem from="1698373421405" duration="3044000" />
+      <workItem from="1699157655882" duration="186000" />
+      <workItem from="1699435697187" duration="748000" />
+      <workItem from="1699452391326" duration="626000" />
+      <workItem from="1699600907553" duration="5416000" />
+      <workItem from="1699758981521" duration="1353000" />
+      <workItem from="1699884126819" duration="41000" />
+      <workItem from="1700978798153" duration="1040000" />
+      <workItem from="1700985847580" duration="955000" />
+      <workItem from="1701064578459" duration="40000" />
+    </task>
+    <task id="LOCAL-00001" summary="api customer and employee">
+      <option name="closed" value="true" />
+      <created>1695979988904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695979988904</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1695980437671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695980437671</updated>
+    </task>
+    <task id="LOCAL-00003" summary="service and resource">
+      <option name="closed" value="true" />
+      <created>1696089285557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696089285557</updated>
+    </task>
+    <task id="LOCAL-00004" summary="service and resource">
+      <option name="closed" value="true" />
+      <created>1696089481618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696089481618</updated>
+    </task>
+    <task id="LOCAL-00005" summary="service and resource">
+      <option name="closed" value="true" />
+      <created>1696089612674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696089612674</updated>
+    </task>
+    <task id="LOCAL-00006" summary="service and resource">
+      <option name="closed" value="true" />
+      <created>1696089769291</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696089769292</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="api customer and employee" />
+    <MESSAGE value="test" />
+    <MESSAGE value="service and resource" />
+    <option name="LAST_COMMIT_MESSAGE" value="service and resource" />
+  </component>
+</project>

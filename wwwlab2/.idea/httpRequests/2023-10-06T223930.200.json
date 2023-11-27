@@ -1,0 +1,18 @@
+[
+  {
+    "productId": 1,
+    "description": "product1",
+    "manufacturer": "asus",
+    "name": "Product1",
+    "status": "NO_ACTIVE",
+    "unit": "cái"
+  },
+  {
+    "productId": 2,
+    "description": "product2",
+    "manufacturer": "hp",
+    "name": "Product2",
+    "status": "NO_ACTIVE",
+    "unit": "cái"
+  }
+]

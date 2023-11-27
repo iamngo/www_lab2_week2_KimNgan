@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head><title>HTTP Status 500 – Internal Server Error</title>
+    <style type="text/css">body {
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    h1, h2, h3, b {
+        color: white;
+        background-color: #525D76;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    a {
+        color: black;
+    }
+
+    .line {
+        height: 1px;
+        background-color: #525D76;
+        border: none;
+    }</style>
+</head>
+<body><h1>HTTP Status 500 – Internal Server Error</h1>
+<hr class="line"/>
+<p><b>Type</b> Exception Report</p>
+<p><b>Message</b> Request failed.</p>
+<p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p>
+<p><b>Exception</b></p>
+<pre>jakarta.servlet.ServletException: org.glassfish.jersey.server.ContainerException: com.fasterxml.jackson.databind.JsonMappingException: could not initialize proxy [vn.edu.ihu.fit.wwwlab2.models.Customer#1] - no Session (through reference chain: vn.edu.ihu.fit.wwwlab2.models.Account[&quot;customer&quot;]-&gt;vn.edu.ihu.fit.wwwlab2.models.Customer$HibernateProxy$RIPMEYVe[&quot;address&quot;])
+	org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:409)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:357)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	vn.edu.ihu.fit.wwwlab2.config.CorsFilter.doFilter(CorsFilter.java:25)
+</pre>
+<p><b>Root Cause</b></p>
+<pre>org.glassfish.jersey.server.ContainerException: com.fasterxml.jackson.databind.JsonMappingException: could not initialize proxy [vn.edu.ihu.fit.wwwlab2.models.Customer#1] - no Session (through reference chain: vn.edu.ihu.fit.wwwlab2.models.Account[&quot;customer&quot;]-&gt;vn.edu.ihu.fit.wwwlab2.models.Customer$HibernateProxy$RIPMEYVe[&quot;address&quot;])
+	org.glassfish.jersey.servlet.internal.ResponseWriter.rethrow(ResponseWriter.java:255)
+	org.glassfish.jersey.servlet.internal.ResponseWriter.failure(ResponseWriter.java:237)
+	org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:456)
+	org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:240)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:697)
+	org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:357)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	vn.edu.ihu.fit.wwwlab2.config.CorsFilter.doFilter(CorsFilter.java:25)
+</pre>
+<p><b>Root Cause</b></p>
+<pre>com.fasterxml.jackson.databind.JsonMappingException: could not initialize proxy [vn.edu.ihu.fit.wwwlab2.models.Customer#1] - no Session (through reference chain: vn.edu.ihu.fit.wwwlab2.models.Account[&quot;customer&quot;]-&gt;vn.edu.ihu.fit.wwwlab2.models.Customer$HibernateProxy$RIPMEYVe[&quot;address&quot;])
+	com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:402)
+	com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:361)
+	com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:316)
+	com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:782)
+	com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:733)
+	com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1572)
+	com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1061)
+	org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.ProviderBase.writeTo(ProviderBase.java:645)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.invokeWriteTo(WriterInterceptorExecutor.java:242)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.aroundWriteTo(WriterInterceptorExecutor.java:227)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor.proceed(WriterInterceptorExecutor.java:139)
+	org.glassfish.jersey.server.internal.JsonWithPaddingInterceptor.aroundWriteTo(JsonWithPaddingInterceptor.java:85)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor.proceed(WriterInterceptorExecutor.java:139)
+	org.glassfish.jersey.server.internal.MappableExceptionWrapperInterceptor.aroundWriteTo(MappableExceptionWrapperInterceptor.java:61)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor.proceed(WriterInterceptorExecutor.java:139)
+	org.glassfish.jersey.message.internal.MessageBodyFactory.writeTo(MessageBodyFactory.java:1116)
+	org.glassfish.jersey.server.ServerRuntime$Responder.writeResponse(ServerRuntime.java:677)
+	org.glassfish.jersey.server.ServerRuntime$Responder.processResponse(ServerRuntime.java:385)
+	org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:375)
+	org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:264)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:240)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:697)
+	org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:357)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	vn.edu.ihu.fit.wwwlab2.config.CorsFilter.doFilter(CorsFilter.java:25)
+</pre>
+<p><b>Root Cause</b></p>
+<pre>org.hibernate.LazyInitializationException: could not initialize proxy [vn.edu.ihu.fit.wwwlab2.models.Customer#1] - no Session
+	org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:164)
+	org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:309)
+	org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:44)
+	org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	vn.edu.ihu.fit.wwwlab2.models.Customer$HibernateProxy$RIPMEYVe.getAddress(Unknown Source)
+	java.base&#47;jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base&#47;jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	java.base&#47;jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base&#47;java.lang.reflect.Method.invoke(Method.java:568)
+	com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689)
+	com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:733)
+	com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:774)
+	com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1572)
+	com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1061)
+	org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.ProviderBase.writeTo(ProviderBase.java:645)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.invokeWriteTo(WriterInterceptorExecutor.java:242)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor$TerminalWriterInterceptor.aroundWriteTo(WriterInterceptorExecutor.java:227)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor.proceed(WriterInterceptorExecutor.java:139)
+	org.glassfish.jersey.server.internal.JsonWithPaddingInterceptor.aroundWriteTo(JsonWithPaddingInterceptor.java:85)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor.proceed(WriterInterceptorExecutor.java:139)
+	org.glassfish.jersey.server.internal.MappableExceptionWrapperInterceptor.aroundWriteTo(MappableExceptionWrapperInterceptor.java:61)
+	org.glassfish.jersey.message.internal.WriterInterceptorExecutor.proceed(WriterInterceptorExecutor.java:139)
+	org.glassfish.jersey.message.internal.MessageBodyFactory.writeTo(MessageBodyFactory.java:1116)
+	org.glassfish.jersey.server.ServerRuntime$Responder.writeResponse(ServerRuntime.java:677)
+	org.glassfish.jersey.server.ServerRuntime$Responder.processResponse(ServerRuntime.java:385)
+	org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:375)
+	org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:264)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:240)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:697)
+	org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:357)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:311)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	vn.edu.ihu.fit.wwwlab2.config.CorsFilter.doFilter(CorsFilter.java:25)
+</pre>
+<p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p>
+<hr class="line"/>
+<h3>Apache Tomcat/10.1.11</h3></body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "accountId": 1,
+  "phoneNumber": "0375950082",
+  "role": "user",
+  "customer": {
+    "id": 1,
+    "address": "Long An",
+    "email": "nganlazy02@gmail.com",
+    "name": "Kim Ngan",
+    "phone": "0375950082"
+  }
+}
