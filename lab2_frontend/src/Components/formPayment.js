@@ -63,12 +63,13 @@ function FormPayment({visible, setVisible, productChosen, total, customer}) {
 
   const onFinish = async (values) => {
     try {
+      // console.log(values);
       const res = await axios.post("http://localhost:8080/api/orders",{
         orderDate: format(new Date(), "yyyy-MM-dd"),
         employee: employees.find((e) => (e.id = employeeChosen)),
         customer: customer.customer
       });
-      if (!!res) {
+      if (res) {
         message.success("Mua hàng thành công!");
         navigate("/home");
       }

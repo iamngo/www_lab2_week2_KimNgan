@@ -3,7 +3,10 @@ package vn.edu.ihu.fit.wwwlab2.resoures;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
+import vn.edu.ihu.fit.wwwlab2.entities.RequestOrderDate;
+import vn.edu.ihu.fit.wwwlab2.entities.ResponseOrderByDateBetween;
 import vn.edu.ihu.fit.wwwlab2.models.Order;
+import vn.edu.ihu.fit.wwwlab2.repositories.OrderRepository;
 import vn.edu.ihu.fit.wwwlab2.services.OrderService;
 
 
@@ -13,9 +16,11 @@ import java.util.List;
 @Path("/orders")
 public class OrderResource {
     private final OrderService orderService;
+    private OrderRepository orderRepository;
 
     public OrderResource() {
-        orderService=new OrderService();
+        orderService = new OrderService();
+        orderRepository = new OrderRepository();
     }
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
@@ -73,5 +78,14 @@ public class OrderResource {
         List<Order> orders = orderService.getAll(Order.class);
         System.out.println(orders);
         return Response.status(Response.Status.OK).entity(orders).build();
+    }
+
+    @POST
+    @Path("/orders-by-date-between")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getOrderByDateBetWeen(RequestOrderDate requestOrderDate) {
+        List<ResponseOrderByDateBetween> orders = orderRepository.getOrderByDateBetWeen(requestOrderDate);
+        return Response.ok(orders).build();
     }
 }

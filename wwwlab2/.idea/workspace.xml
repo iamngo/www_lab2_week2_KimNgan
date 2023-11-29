@@ -10,26 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb12848-7128-40a2-9602-78bce9caa5bf" name="Changes" comment="service and resource">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/entities/RequestOrderDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/entities/ResponseOrderByDateBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/repositories/OrderRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/admin/Admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/admin/Admin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/admin/Components/formAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/admin/Components/formAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/admin/Components/formEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/admin/Components/formEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/admin/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/home/Home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/login/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/login/Login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2_frontend/src/Components/formPayment.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2_frontend/src/Components/formPayment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/entities/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/entities/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/models/OrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/repositories/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/resoures/EmployeeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/resoures/EmployeeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/services/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/resoures/OrderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/ihu/fit/wwwlab2/resoures/OrderResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,28 +55,30 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2VqRISLV6oQiNJWqfpavrnDhPga" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/webapplication",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WWW_Week2_Lab2/wwwlab2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="vn.edu.ihu.fit.wwwlab2.config" />
@@ -265,6 +255,10 @@
       <workItem from="1700978798153" duration="1040000" />
       <workItem from="1700985847580" duration="955000" />
       <workItem from="1701064578459" duration="40000" />
+      <workItem from="1701069661998" duration="2514000" />
+      <workItem from="1701073056954" duration="28000" />
+      <workItem from="1701151251209" duration="1456000" />
+      <workItem from="1701239725518" duration="6258000" />
     </task>
     <task id="LOCAL-00001" summary="api customer and employee">
       <option name="closed" value="true" />
