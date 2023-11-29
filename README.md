@@ -2,13 +2,16 @@
 www_lab2_week2_KimNgan
 - Admin:
   + Đăng nhập: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/20c7a954-e3b3-4c4b-a69f-55d237778ca5)
-  + Admin Manage: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/8883ed59-1ad9-479c-9843-d5e71095858d)
-  + Admin Manage: (+) Thêm nhân viên: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/89635daf-1207-4d99-ab50-bd4dac984bdd)
+  + Đăng nhập thành công -> Hiển thị trang admin manage: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/a6225fef-3c32-4465-90fb-be947bea4a27)
+  + Admin Manage chọn Quản lý nhân viên -> Hiển thị trang Quản lý nhân viên: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/8883ed59-1ad9-479c-9843-d5e71095858d)
+  + Quản lý nhân viên: (+) Thêm nhân viên: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/89635daf-1207-4d99-ab50-bd4dac984bdd)
                   (+) Thêm thành công: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/2e40630c-f2ac-41d8-b89c-3ebbfebe2bd6)
-  + Admin Manage: (+) Cập nhật nhân viên: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/97c7f684-ed18-4993-ae1e-6373e522cdb8)
+  + Quản lý nhân viên: (+) Cập nhật nhân viên: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/97c7f684-ed18-4993-ae1e-6373e522cdb8)
                   (+) Cập nhật thành công: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/4e14f508-d638-43b1-b25a-6bcfa8065320)
-  + Admin Manage: (+) Xóa nhân viên id=4: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/494b81ab-1dfc-4a8c-9f5d-a80ae84ddbb3)
+  + Quản lý nhân viên: (+) Xóa nhân viên id=4: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/494b81ab-1dfc-4a8c-9f5d-a80ae84ddbb3)
                   (+) Xóa thành công: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/286efa12-f45b-4726-96ed-9bf0481261d1)
+  + Admin Manage chọn Thống kê -> Hiển thị trang thống kê: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/29803bd1-78c6-4716-b7cc-9f723ffe672f)
+
 - User:
   + Đăng nhập: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/b50fb546-5f84-4560-8655-698b038b824f)
   + Đăng nhập thành công -> Hiển thị trang bán hàng: ![image](https://github.com/iamngo/www_lab2_week2_KimNgan/assets/88821216/901013aa-3c97-4892-b359-65c1ba6dd448)
